@@ -1,5 +1,6 @@
 var React = require('react');
+var ReactRouter = require('react-router');
 var ReactDOM = require('react-dom');
-var List = require('./components/List.jsx');
+var Minecraft = require('./components/Minecraft.jsx');
 
-ReactDOM.render(<List />, document.getElementById('ingredients'));
+ReactDOM.render(<Minecraft />, document.getElementById('gallery-list'));
